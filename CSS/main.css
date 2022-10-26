@@ -1,0 +1,264 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    padding: 1rem 0;
+    background-color: white;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container{
+    max-width: 1000px;
+    /* background-color: lightblue; */
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.flex ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.flex ul{
+    margin: 0;
+    padding: 0;
+}
+
+.content1,
+.content2,
+.content3,
+.content4{
+    height: 600vh;
+}
+
+.content1{
+    background-color: lightblue;
+}
+
+.content2{
+    background-color: lightcoral;
+}
+
+.content3{
+    background-color: lightgreen;
+}
+
+.content4{
+    background-color: lightseagreen;
+}
+
+
+/*  homework. header qismi */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1920px;
+    background-color: #ffff;
+    /* height: 1200px; */
+    /* display: flex; */
+}
+
+.wrapper_div{
+    display: flex;
+}
+
+.wrapp_first{
+    height: 44px;
+    /* width: 100%; */
+    padding: 30px 0 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.img_corner{
+    padding-top: 34px;
+    /* margin-right: 0; */
+}
+.youtube_img{
+    margin-left: 28px;
+    /* margin: 0; */
+    padding-top: 30px;
+}
+.youtube_h3{
+    margin-left: 4px;
+    padding-top: 31px;
+}
+
+.search{
+    height: 44px;
+    width: 830px;
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 22px;
+    background: #EBEBEB;
+    opacity: 0.3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.search_p{
+    padding: 12px 0 12px 23px;
+}
+.search_img{
+    padding: 13px 12px 11px 0;
+}
+
+.wrapper_zooms{
+    margin-left: 250px;
+    height: 44px;
+    /* width: 100%; */
+    padding-right: 70px;
+    padding-top: 25px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-items: center; */
+    /* justify-content: space-around; */
+    
+}
+.zoom_img{
+    margin-right: 50px;
+    /* padding-top: 34px; */
+    width: 27px;
+    height: 20px;
+}
+.nuqtalar_img{
+    margin-right: 50px;
+    /* padding-top: 31px; */
+    width: 21;
+    height: 21px;
+}
+.qungiroq_img{
+    margin-right: 50px;
+    /* padding-top: 34px; */
+    width: 22px;
+    height: 26px;
+}
+.male_img{
+    padding-right: 70px;
+    /* padding-top: 22px; */
+    /* width: 20px;
+    height: 20px; */
+}
+
+
+
+/* female. */
+
+.head2_vedioinstall{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+
+.female{
+    display: flex;
+    
+    
+}
+.female_img{
+    margin-top: 50px;
+    padding-left: 255px;
+}
+.Dollie{
+    margin: 59px 0 0 20px;
+}
+
+
+.only_vedios{
+    display: flex;
+    padding-left: 255px;
+}
+.vedio1, .vedio2,.vedio3,.video4{
+    
+    margin-top: 38px;
+    /* border-radius: 5px; */
+}
+.vedio1, .vedio2,.vedio3{
+    margin-right: 15px;
+}
+.text_h5{
+    font-family: 'Mulish',sans-serif;
+
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #19202C;
+}
+.text{
+    font-family: 'Mulish',sans-serif;
+/* font-style: normal; */
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+
+color: #C2C2C2;
+}
+
+
+.only_vedios2{
+    padding-left: 255px;
+    display: flex;
+    margin-top: 50px;
+    padding-right: 0;
+}
+
+.food_video1{
+    margin-right: 20px;
+}
+
+.text2_h5{
+    font-family: 'Mulish',sans-serif;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #19202C;
+}
+.text2{
+    font-family: 'Mulish',sans-serif;
+/* font-style: normal; */
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: #C2C2C2;
+
+}
+
+.flex{
+    flex-wrap: wrap;
+    /* text-align: ; */
+}
+
+/* meniu strated */
+
+.meniu_container{
+    padding: 0;
+    margin: 0;
+}
+
+.meniu1{
+    display: flex;
+}
